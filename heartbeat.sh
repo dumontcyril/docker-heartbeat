@@ -6,6 +6,6 @@ fi
   
 while true;  
 do  
-    echo $1 - $(hostname) - \($(date +%H:%M:%S)\);  
+    echo message : $1 - $(hostname) - \($(date +%H:%M:%S)\);  
     sleep "$HEARTBEATSTEP";  
 done
